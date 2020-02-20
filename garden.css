@@ -1,0 +1,177 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: ' sans-serif';
+    background-image: url(http://www.csszengarden.com/208/body_bg.gif);
+}
+
+ h3{
+     font-family: cursive;
+     color: cadetblue;
+     text-align: center;
+     margin: 0;
+     white-space: nowrap;
+     overflow: hidden;
+ }
+ a {
+     font-family: fantasy;
+     font-size: medium;
+     color: palevioletred;
+     text-decoration: underline;
+ }
+
+ a:hover {
+     color: skyblue;
+ }
+ p {
+     margin:0;
+     padding: 0;
+ }
+
+
+ header {
+     width: 772px;
+     height: 178px;
+     background: url(http://www.csszengarden.com/208/top.jpg);
+ }
+
+ .page-wrapper {
+     width: 772px;
+     margin:  auto;
+     padding: 0 13px;
+     background-image: url(http://www.csszengarden.com/208/bg.gif) repeat-x #dfdfdf;
+     border-left: 2px solid grey;
+     border-right: 2px solid grey;
+     color: black;
+     position: relative;
+     background-color: #dfdfdf;
+     text-align:left;
+ }
+
+ .summary, .preamble, .explanation, .participation, .benefits, .requirements {
+     width: 546px;
+     background-color: white;
+     margin: 0 0 2px 226px;
+     background-repeat: repeat-y;
+     display: block;
+     padding:0;
+ }
+
+ .summary p, .explanation p , .benefits p {
+     padding: 0 15px 10px 77px;
+ }
+ .preamble p, .participation p, .requirements p {
+     padding: 0 85px 10px 17px;
+ }
+
+ .sidebar {
+     position: absolute;
+     top:179px;
+     left:20px;
+     width: 207px;
+     background-color: white;
+ }
+.sidebar li {
+    padding: 6px 0 10px 0;
+    list-style: none;
+    background: url(http://www.csszengarden.com/208/line.gif) bottom repeat-x;
+}
+
+.sidebar li a {
+    padding-left: 7px;
+    text-decoration: none;
+    background: url(http://www.csszengarden.com/208/link.gif) left center no-repeat;
+}
+
+ .design-selection, .design-archives, .zen-resources {
+     margin: 0 0 2px 0 ;
+ }
+
+ .requirements p:nth-child(6) {
+     padding: 0 85px 10px 17px;
+ }
+
+ .design-selection li a {
+     display:block;
+     font-weight: bold;
+     background-position: 0 0.6em;
+ }
+
+ .design-selection a.designer-name {
+     display:inline;
+     color: cadetblue;
+     padding: 0;
+ }
+.m {
+    text-align: right;
+    width: 539px;
+    margin: 5px 0 0 226px;
+    padding: 3px 14px 43px 0;
+
+}
+ footer a{
+     color: rgb(207, 71, 155);
+     background-color: #dfdfdf;
+     border: 1px solid #bdbdbd;
+     padding: 3px 3px;
+     height: 100%;
+ }
+
+ footer a:hover{
+     background-color: rgb(241, 236, 229);
+     columns: #777777;
+ }
+.summary p:first-child {
+    padding-top: 14px;
+    background: url(http://www.csszengarden.com/208/quicksummary_top.gif) top no-repeat,
+    url(http://www.csszengarden.com/208/right_bg.gif) right repeat-y;
+}
+.summary p:last-child {
+    padding-top: 20px;
+    background: url(http://www.csszengarden.com/208/right_bottom.gif) bottom no-repeat,
+    url(http://www.csszengarden.com/208/right_bg.gif) right repeat-y;
+}
+
+.summary p:first-child {
+    padding-top: 14px;
+    position: relative;
+    background: url(http://www.csszengarden.com/208/quicksummary_top.gif) top no-repeat;
+}
+
+summary p:last-child {
+    padding-bottom: 20px;
+}
+
+.summary p, .explanation p , .benefits p {
+    background: url() right repeat-y;
+}
+
+.design-selection, .design-archives, .zen-resources {
+    background: url() repeat-y;
+}
+/* side images */
+.summary {
+    background-image: url(http://www.csszengarden.com/208/img_quicksummary.jpg);
+    background-position: left bottom;
+}
+.preamble {
+    background-image: url(http://www.csszengarden.com/208/img_preamble.jpg);
+    background-position: right bottom;
+}
+.explanation {
+    background-image: url(http://www.csszengarden.com/208/img_explanation.jpg);
+    background-position: left bottom;
+}
+.participation {
+    background-image: url(http://www.csszengarden.com/208/img_participation.jpg);
+    background-position: right bottom;
+}
+.benefits {
+    background-image: url(http://www.csszengarden.com/208/img_benefits.jpg);
+    background-position: left bottom;
+}
+.requirements {
+    background-image: url(http://www.csszengarden.com/208/img_requirements.jpg);
+    background-position: right bottom;
+}
