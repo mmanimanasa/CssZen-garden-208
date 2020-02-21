@@ -2,4 +2,4 @@
 
 Using various properties of CSS a web page has been created with static protype of CSS Zen-Garden-208 sample.
 
-(https://mmanimanasa.github.io/CssZen-garden-208/)
+( working: https://mmanimanasa.github.io/CssZen-garden-208/)
